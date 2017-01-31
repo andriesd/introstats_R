@@ -1,0 +1,75 @@
+Problem 1. Access the CSV file pizzasales.csv. The Waialua Pizza Company is a medium-sized chain of pizzerias located at beaches all over the South Pacific. The chain is known for its delicious pizzas served at all the nice beaches, and it is known for its use of statistical techniques to improve operations. The company has obtained data reflecting its sales in its 50 beachfront stores. The Waialua Pizza Company feels the income levels of the nearby community and the presence or absence of competition might be major factors in determining sales. The dataset has three columns: average sales per day in dollars, average per-capita income per week and a dummy variable for whether a competitor is located within half a mile. Conduct a regression of Sales vs. Competitor (only use this one independent variable for now) and use the results to answer the following questions.
+
+1(a) Estimate the daily sales for a store that has no competition.
+
+1(b) Estimate the daily sales for a store that faces competition.
+
+1(c) Calculate the difference between your two estimates and comment on the practical and statistical significance of this gap.
+
+1(d) Provide a 95% confidence interval for the effect of competition
+on sales.
+
+1(e) What percentage of the variance in sales can be explained using only the Competitor variable?
+
+Problem 2. Conduct a regression of Sales vs. Income (only use this one independent variable for now) and use the results to answer the following questions:
+
+2(a) Estimate the daily sales for a store whose neighborhood in-
+come is $200 per week.
+
+2(b) Estimate the daily sales for a store whose neighborhood income is $300 per week.
+
+2(c) Estimate the impact of a $100 increase in neighborhood income per week on sales.
+
+2(d) Provide a 95% confidence interval for your estimate in part 2(c).
+
+2(e) What percentage of the variance in sales can be explained using only the Income variable?
+
+Problem 3 Create a scatterplot of Sales vs. Income and plot the regression line as well. Does the picture reveal any likely opportunities to improve your model?
+
+Problem 4. Run a regression to predict sales using all three variables: Competitor, Income, and the interaction of Competitor and Income.
+4(a) Is the Competitor variable in this model statistically significant?
+
+4(b) Estimate the daily sales for a store without competition whose neighborhood income is $300 per week.
+
+4(c) Estimate the daily sales for a store with a competitor whose neighborhood income is $300 per week.
+
+Problem 5. Access the eurodata2a.csv dataset. This file contains information about unemployment and wage growth in Belgium and Denmark. The dummy variable Belgium is set to 1 in Belgium and 0 in Denmark. Perform a regression of Wage Growth vs. Unemployment, Belgium, and an interaction term of Unemployment and Belgium.
+
+5(a) Write out the full estimated regression equation.
+
+5(b) Write out the estimated regression equation for Belgium.
+
+5(c) Write out the estimated regression equation for Denmark.
+
+5(d) How does a one percentage point increase in unemployment relate to the growth rate of wages in Belgium?
+
+5(e) How does a one percentage point increase in unemployment relate to the growth rate of wages in Denmark?
+
+5(f) Estimate the difference in how unemployment relates to wage growth between the two countries.
+
+5(g) Provide a 95% confidence interval for the difference in how unemployment relates to wage growth between the two countries.
+
+5(h) Predict the growth rate in wages for each country in a year that has 3% unemployment.
+
+5(i) Provide a 90% confidence interval for each prediction in part
+5(h).
+
+Problem 6. Access the eurodata2b.csv dataset. This file contains information about unemployment and wage growth in Germany and Greece. The dummy variable Germany is set to 1 in Germany and 0 in Greece. Perform a regression of Wage Growth vs. Unemployment, Germany, and an interaction term
+
+6(a) Write out the full estimated regression equation.
+
+6(b) Write out the estimated regression equation for Germany.
+
+6(c) Write out the estimated regression equation for Greece.
+
+6(d) How does a one percentage point increase in unemployment relate to the growth rate of wages in Germany?
+
+6(e) How does a one percentage point increase in unemployment relate to the growth rate of wages in Greece?
+
+6(f) Estimate the difference in how unemployment relates to wage growth between the two countries.
+
+6(g) Provide a 95% confidence interval for the difference in how unemployment relates to wage growth between the two countries.
+
+6(h) Predict the growth rate in wages for each country in a year that has 3% unemployment.
+
+6(i) Provide a 90% confidence interval for each prediction from part 6(i).

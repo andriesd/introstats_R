@@ -1,0 +1,138 @@
+Movie,Month,Genre,MPAArating,Country,OpeningScreens,TotalDomesticGross,FirstWeekend,Bestactors,Topdollaractors,Sequel,Summerrelease,Holidayrelease,Christmasrelease,Ebertreview,Oscarnominations,Oscars
+"Saving Private Ryan","July","Drama","R","USA",2463,216.119,30.5761,1,1,0,1,0,0,4,3,1
+"Armageddon","July","Action","PG-13","USA",3127,201.573,36.09,0,1,0,1,1,0,1,0,0
+"There's Something About Mary","July","Comedy","R","USA",2186,176.483,13.7406,0,0,0,1,0,0,3,0,0
+"Bug's Life, A","November","Childrens","G","USA",2686,162.792,33.2581,1,0,0,0,1,0,4,0,0
+"Waterboy, The","November","Comedy","PG-13","USA",2664,161.487,39.4141,1,1,0,0,0,0,1,0,0
+"Doctor Dolittle","June","Comedy","PG-13","USA",2777,144.156,29.0143,0,1,0,1,0,0,3,0,0
+"Rush Hour","September","Action","PG-13","USA",2638,141.153,33.0018,0,0,0,0,0,0,3,0,0
+"Deep Impact","May","Action","PG-13","USA",3156,140.459,41.1524,2,0,0,0,0,0,3,0,0
+"Good Will Hunting","January","Drama","R","USA",1787,138.339,10.2615,1,1,0,0,0,0,3,5,1
+"Godzilla","May","Action","PG-13","USA",3310,136.023,55.727,0,0,0,0,1,0,2,0,0
+"Patch Adams","December","Comedy","PG-13","USA",2712,135.014,25.2623,1,1,0,0,1,1,2,0,0
+"Lethal Weapon 4","July","Action","R","USA",3117,129.734,34.0481,0,3,1,1,0,0,2,0,0
+"Truman Show, The","June","Comedy","PG","USA",2315,125.603,31.5421,1,1,0,1,0,0,4,0,0
+"Mulan","June","Childrens","G","USA",2888,120.618,22.7451,0,1,0,1,0,0,4,0,0
+"You've Got Mail","December","Comedy","PG","USA",2691,115.731,18.4267,1,1,0,0,1,1,3,0,0
+"Enemy of the State","November","Action","R","USA",2393,111.544,20.0386,0,0,0,0,0,0,3,0,0
+"Prince of Egypt, The","December","Childrens","PG","USA",3118,101.217,14.5243,2,2,0,0,1,1,4,0,0
+"Rugrats Movie, The","November","Childrens","G","USA",2782,100.491,27.3215,0,1,0,0,0,0,2,0,0
+"Mask of Zorro, The","July","Action","PG-13","USA",2515,93.771,22.5259,1,0,0,1,0,0,3,0,0
+"Stepmom","December","Drama","PG-13","USA",2358,91.03,19.1424,3,1,0,0,1,1,2,0,0
+"Antz","October","Comedy","PG","USA",2449,90.646,17.1952,1,0,0,0,0,0,4,0,0
+"X Files, The","June","SF","PG-13","English",2629,83.892,30.1388,0,0,0,1,0,0,3,0,0
+"Wedding Singer, The","February","Comedy","PG-13","USA",2821,80.224,21.9171,0,1,0,0,1,0,1,0,0
+"City of Angels","April","Drama","PG-13","USA",2212,78.745,15.369,1,1,0,0,0,0,3,0,0
+"Horse Whisperer, The","May","Drama","PG-13","USA",2039,75.37,13.6855,0,0,0,0,0,0,3,0,0
+"Six Days Seven Nights","June","Action","PG-13","USA",2550,74.292,16.4853,0,1,0,1,0,0,3,0,0
+"Star Trek: Insurrection","December","SF","PG","USA",2620,70.117,22.0528,0,0,1,0,0,0,2,0,0
+"Blade","August","Action","R","USA",2322,70.001,17.0739,0,0,0,1,0,0,3,0,0
+"Lost in Space","April","SF","PG-13","USA",3306,69.102,20.1549,1,0,0,0,0,0,2,0,0
+"Perfect Murder, A","June","Thriller","R","USA",2845,67.629,16.6157,0,0,0,1,0,0,3,0,0
+"Parent Trap, The","August","Childrens","PG","USA",2247,66.304,11.1485,0,0,0,1,0,0,3,0,0
+"Ever After","August","Drama","PG","USA",1767,65.703,8.5269,0,1,0,1,0,0,3,0,0
+"Hope Floats","May","Drama","PG-13","USA",2367,60.033,14.2105,1,1,0,0,0,0,2,0,0
+"U.S. Marshals","March","Action","PG-13","USA",2817,57.823,16.864,1,1,1,0,0,0,3,0,0
+"Man in the Iron Mask, The","March","Action","PG-13","USA",3101,56.876,17.2715,1,1,0,0,0,0,3,0,0
+"Snake Eyes","August","Action","R","USA",2713,55.585,16.3104,1,0,0,1,0,0,1,0,0
+"What Dreams May Come","October","Drama","PG-13","USA",2526,55.35,15.8336,1,1,0,0,0,0,4,0,0
+"Halloween H20","August","Horror","R","USA",2607,55.004,16.1877,0,0,0,1,0,0,2,0,0
+"Small Soldiers","July","Action","PG-13","Non-English",2539,53.955,14.0476,0,1,0,1,0,0,3,0,0
+"Mighty Joe Young","December","Childrens","PG","USA",2502,50.628,10.602,0,1,0,0,1,1,3,0,0
+"Practical Magic","October","Drama","PG-13","USA",2652,46.611,13.1047,0,1,0,0,0,0,2,0,0
+"Meet Joe Black","November","Drama","PG-13","USA",2503,44.606,15.018,1,0,0,0,0,0,3,0,0
+"Negotiator, The","August","Action","R","USA",2436,44.484,10.2188,2,0,0,1,0,0,4,0,0
+"Wag the Dog","January","Comedy","R","USA",1665,43.022,7.7781,2,0,0,0,0,0,4,0,0
+"Ronin","September","Action","R","USA",2487,41.609,12.6976,1,0,0,0,0,0,3,0,0
+"Siege, The","November","Action","R","USA",2541,40.932,13.9313,2,1,0,0,0,0,3,0,0
+"Pleasantville","October","Comedy","PG-13","USA",1636,40.568,8.8551,2,0,0,0,0,0,4,0,0
+"Faculty, The","December","Horror","R","USA",2365,40.064,11.6335,0,0,0,0,1,1,,0,0
+"I Still Know What You Did Last Summer","November","Horror","R","USA",2443,39.989,16.52,0,0,1,0,0,0,1,0,0
+"Primary Colors","March","Comedy","R","USA",1965,38.966,12.0454,2,2,0,0,0,0,4,0,0
+"Urban Legend","September","Horror","R","English",2257,38.048,10.5154,0,0,0,0,0,0,2,0,0
+"How Stella Got Her Groove Back","August","Drama","R","USA",1395,37.672,11.3189,1,2,0,1,0,0,3,0,0
+"Out of Sight","June","Action","R","USA",2107,37.339,12.0204,1,0,0,1,0,0,4,0,0
+"Sphere","February","SF","PG-13","USA",2814,36.976,16.5868,2,0,0,0,1,0,2,0,0
+"Jack Frost","December","Comedy","PG","USA",2152,33.893,7.1041,0,1,0,0,0,0,1,0,0
+"Mercury Rising","April","Action","R","USA",2386,32.891,10.1047,1,1,0,0,0,0,2,0,0
+"Bride of Chucky","October","Horror","R","USA",2412,32.368,11.8309,0,0,1,0,0,0,,0,0
+"Night at the Roxbury, A","October","Comedy","PG-13","USA",1865,30.324,9.6048,0,0,0,0,0,0,1,0,0
+"Elizabeth","November","Drama","R","English",516,30.012,3.3912,0,0,0,0,0,0,4,2,0
+"Madeline","July","Childrens","PG","USA",1863,29.767,6.4147,1,0,0,1,0,0,3,0,0
+"Wild Things","March","Drama","R","USA",2177,29.753,9.6224,1,0,0,0,0,0,3,0,0
+"Spice World","January","Comedy","PG","English",2339,29.247,10.5272,0,0,0,0,0,0,1,0,0
+"Object of My Affection, The","April","Comedy","R","USA",1890,29.106,9.7259,0,0,0,0,0,0,3,0,0
+"Big Hit, The","April","Action","R","USA",2149,27.052,10.8094,0,0,0,0,0,0,1,0,0
+"Paulie","April","Childrens","PG","USA",1553,27.007,5.3698,1,0,0,0,0,0,2,0,0
+"Bulworth","May","Comedy","R","USA",2047,26.525,10.6024,0,0,0,0,0,0,4,0,0
+"Great Expectations","February","Drama","R","USA",1867,26.333,9.5933,1,0,0,0,0,0,3,0,0
+"Can't Hardly Wait","June","Comedy","PG-13","USA",1987,25.339,8.0259,0,0,0,1,0,0,2,0,0
+"Fallen","January","Horror","R","USA",2448,25.188,10.4016,1,0,0,0,0,0,3,0,0
+"Avengers, The","August","Action","PG-13","USA",2466,23.322,10.306,1,0,0,1,0,0,,0,0
+"One True Thing","September","Drama","R","USA",1590,23.209,6.6065,1,0,0,0,0,0,3,0,0
+"Players Club, The","April","Comedy","R","USA",593,23.031,5.8946,0,0,0,0,0,0,3,0,0
+"Rounders","September","Drama","R","USA",2176,22.905,8.4591,1,0,0,0,0,0,3,0,0
+"Quest for Camelot","May","Childrens","G","USA",3107,22.717,6.0416,1,0,0,0,0,0,2,0,0
+"Beloved","October","Drama","R","USA",1501,22.476,8.1656,0,0,0,0,0,0,4,0,0
+"Borrowers, The","February","Childrens","PG","English",1535,22.359,6.0751,0,0,0,0,1,0,3,0,0
+"He Got Game","May","Drama","R","USA",1319,21.554,7.6107,1,0,0,0,0,0,4,0,0
+"Psycho","December","Horror","R","USA",2477,21.38,10.0319,2,0,0,0,0,0,2,0,0
+"Apostle, The","January","Drama","PG-13","USA",676,20.733,2.403,0,0,0,0,0,0,4,1,0
+"Vampires","November","Horror","R","USA",1793,20.241,9.1065,1,0,0,0,0,0,2,0,0
+"Jane Austen's Mafia","July","Comedy","PG-13","USA",1942,19.882,6.578,0,0,0,1,0,0,2,0,0
+"Hard Rain","January","Action","R","USA",2107,19.819,8.009,1,0,0,0,0,0,1,0,0
+"Species II","April","SF","R","USA",2510,19.165,7.274,0,0,1,0,0,0,,0,0
+"Replacement Killers, The","February","Action","R","USA",1936,18.967,8.0466,0,0,0,0,0,0,3,0,0
+"Odd Couple II, The","April","Comedy","PG-13","USA",1650,18.878,4.8103,0,0,1,0,0,0,2,0,0
+"Babe: Pig in the City","November","Childrens","PG","USA",2384,18.318,6.1626,0,0,1,0,1,0,4,0,0
+"Simon Birch","September","Drama","PG","USA",596,18.252,3.3214,0,1,0,0,0,0,3,0,0
+"Disturbing Behavior","July","Horror","R","USA",1842,17.441,7.0707,0,0,0,1,0,0,2,0,0
+"Big Lebowski, The","March","Comedy","R","USA",1207,17.439,5.5338,2,0,0,0,0,0,3,0,0
+"Half Baked","January","Comedy","R","USA",1701,17.278,7.7725,0,0,0,0,0,0,,0,0
+"54","August","Drama","R","USA",1859,16.574,6.6115,0,0,0,1,0,0,,0,0
+"Dance With Me","August","Drama","PG","USA",1467,15.814,4.5077,0,0,0,1,0,0,3,0,0
+"Dead Man on Campus","August","Comedy","R","USA",1797,15.062,4.7047,0,0,0,1,0,0,,0,0
+"Twilight","March","Drama","R","USA",1351,15.03,5.8664,1,0,0,0,0,0,2,0,0
+"Soldier","October","SF","R","USA",2507,14.567,6.4472,0,0,0,0,0,0,,0,0
+"Dark City","March","SF","R","USA",1754,14.337,5.577,0,0,0,0,0,0,4,0,0
+"Blues Brothers 2000","February","Action","PG-13","USA",2507,13.979,6.1296,0,0,1,0,0,0,2,0,0
+"Les Miserables","May","Drama","PG-13","English",1477,13.871,5.0118,0,0,0,0,0,0,3,0,0
+"Desperate Measures","February","Action","R","USA",1963,13.668,5.8334,0,0,0,0,0,0,2,0,0
+"Hush","March","Thriller","PG-13","USA",1966,13.513,5.7424,1,0,0,0,0,0,2,0,0
+"Senseless","February","Comedy","R","USA",1843,13.035,5.3377,0,0,0,0,0,0,3,0,0
+"Living Out Loud","November","Comedy","R","USA",1086,12.902,4.3197,1,0,0,0,0,0,4,0,0
+"Black Dog","May","Action","PG-13","USA",2025,12.829,4.8094,0,0,0,0,0,0,,0,0
+"Yatgo ho yan (Mr. Nice Guy)","March","Action","PG-13","Non-English",1463,12.674,5.2507,0,0,0,0,0,0,3,0,0
+"Why Do Fools Fall in Love","August","Drama","R","USA",1369,12.413,3.9464,0,0,0,1,0,0,2,0,0
+"I'll Be Home For Christmas","November","Comedy","PG","USA",1759,12.213,3.8983,0,0,0,0,0,0,1,0,0
+"Holy Man","October","Comedy","PG","USA",2013,12.065,5.1069,0,1,0,0,0,0,2,0,0
+"Deep Rising","February","Horror","R","USA",1758,11.146,4.7378,0,0,0,0,0,0,2,0,0
+"Barney's Great Adventure","April","Childrens","G","USA",540,11.144,2.5853,0,0,0,0,0,0,3,0,0
+"Fear and Loathing in Las Vegas","May","Comedy","R","USA",1126,10.562,4.3351,1,0,0,0,1,0,1,0,0
+"Home Fries","November","Comedy","PG-13","USA",1925,10.443,3.784,0,1,0,0,1,0,3,0,0
+"I Got the Hook Up","May","Comedy","R","USA",655,10.305,3.3103,0,0,0,0,0,0,,0,0
+"Newton Boys, The","March","Drama","PG-13","USA",1965,10.297,4.0102,0,0,0,0,0,0,2,0,0
+"Air Bud: Golden Receiver","August","Childrens","G","English",1669,10.215,2.6037,0,0,1,1,0,0,2,0,0
+"Knock Off","September","Action","R","English",1800,10.076,5.5162,0,0,0,1,1,0,,0,0
+"Dirty Work","June","Comedy","PG-13","USA",1776,9.975,3.6342,0,0,0,1,0,0,,0,0
+"Very Bad Things","November","Thriller","R","USA",1260,9.801,3.2459,0,0,0,0,1,0,1,0,0
+"Belly","November","Thriller","R","USA",600,9.63,3.4548,0,0,0,0,0,0,,0,0
+"Wrongfully Accused","August","Comedy","PG-13","Non-English",2062,9.604,3.5046,0,0,0,1,0,0,,0,0
+"Jerry Springer: Ringmaster","November","Comedy","R","USA",1312,9.247,3.344,0,0,0,0,1,0,2,0,0
+"Apt Pupil","October","Drama","R","USA",1448,8.838,3.5832,0,0,0,0,0,0,2,0,0
+"Return to Paradise","August","Drama","R","USA",965,8.288,2.4651,0,0,0,1,0,0,4,0,0
+"Firestorm","January","Action","R","USA",2037,8.041,3.8493,0,0,0,0,0,0,,0,0
+"Woo","May","Comedy","R","USA",625,8.026,2.5173,0,0,0,0,0,0,2,0,0
+"My Giant","April","Comedy","PG","USA",1948,7.985,3.1178,0,0,0,0,0,0,2,0,0
+"Krippendorf's Tribe","March","Comedy","PG-13","USA",1529,7.514,3.3164,0,0,0,0,0,0,2,0,0
+"Star Kid","January","SF","PG","USA",1041,7.015,3.0336,0,0,0,0,0,0,3,0,0
+"BASEketball","August","Comedy","R","USA",1905,6.94,3.0861,0,0,0,1,0,0,2,0,0
+"Caught Up","March","Drama","R","USA",713,6.724,2.4226,0,0,0,0,0,0,2,0,0
+"American History X","November","Drama","R","USA",512,6.712,1.3402,0,0,0,0,0,0,3,1,0
+"Almost Heroes","May","Comedy","PG-13","USA",2048,6.114,2.8379,0,0,0,0,0,0,,0,0
+"Palmetto","February","Thriller","R","Non-English",1505,5.84,2.8768,0,0,0,0,0,0,2,0,0
+"Phantoms","February","Thriller","R","USA",1859,5.657,3.066,0,0,0,0,0,0,1,0,0
+"Meet the Deedles","March","Comedy","PG","USA",1763,4.308,2.0068,0,0,0,0,0,0,2,0,0
+"Kissing a Fool","March","Comedy","R","USA",1742,4.002,2.3081,0,0,0,0,0,0,1,0,0
+"Major League: Back to the Minors","April","Comedy","PG-13","USA",2322,3.551,2.087,0,0,1,0,0,0,,0,0
+"Tarzan and the Lost City","April","Action","PG","USA",1412,2.147,1.1106,0,0,0,0,0,0,,0,0

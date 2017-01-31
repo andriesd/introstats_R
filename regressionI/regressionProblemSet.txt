@@ -1,0 +1,80 @@
+
+Problem 1. Access the CSV file retailsales.csv. This data file reports the percentage change in total domestic retail sales and the percentage change in the U.S. GDP over a ten-year period. (from A.C. Nielsens Facts, Figures and the Future. Feb. 2003).
+
+1(a) Perform a regression of percent chginRetailSales using percent chginGDP as the independent variable.
+
+1(b) Write the estimated regression equation.
+
+1(c) Use the regression to estimate how much a one percentage point increase in GDP will affect retail sales.
+
+1(d)  Provide a 95% confidence interval for your estimate in part
+1(c).
+
+1(e) Provide a 90% confidence interval for your estimate in part
+1(c).
+
+1(f) Can you reject the null hypothesis that the true coefficient multiplying percent chginGDP is zero (at 5% significance)?
+
+Problem 2. Use the regression from problem 1.
+
+2(a) Predict the percent chginRetailSales in a year where the GDP increases by 3.0%.
+
+2(b) Provide a 95% prediction interval for your estimate.
+
+2(c) Provide a 98% prediction interval for your estimate.
+
+2(d) Using the same prediction, estimate the probability that the percent chginRetailSales will be greater than 8.5.
+
+2(e) Overall how would you rate the quality of this regression? Justify your answer.
+
+Problem 3. Access the CSV file salaries.csv. These data represent the salaries of 41 workers at a major corporation based on the number of years employed with the company.
+
+3(a) Perform a regression of Salary vs. Years Experience.
+
+3(b) Write out the estimated regression equation.
+
+3(c) Use the regression to estimate the effect of one additional
+year of work experience at the company on a workers salary.
+
+3(d) Provide a 95% confidence interval for your estimate in part 3(c).
+
+3(e) Provide a 99% confidence interval for your estimate in part 3(c).
+
+3(f) [10 points]. Can you reject the null hypothesis that the true coefficient is zero (at 5% significance)?
+
+Problem 4. Use the regression from problem 3.
+
+4(a) Predict the salary of a worker with nine years of experience
+at the company.
+
+4(b) Provide a 95% prediction interval for your estimate.
+
+4(c) Provide a 75% prediction interval for your estimate.
+
+4(d) Provide an interval that you are 90% confident contains the
+true mean salary of workers with nine years of experience.
+
+4(e) How confident can we be that work experience is significantly related to salary?
+
+Problem 5. Access the CSV file eurodata.csv, which contains information
+from the Statistical Annex of the European Economy, 2003. The dataset consists
+of 42 years worth of wage rate growth and unemployment rates for 10 countries
+in Europe. Multinational corporations might be interested in studying how
+unemployment impacts the growth in wages for some or all of these 10 countries.
+
+5(a) Perform a regression of wage growth vs. unemployment in
+Belgium (BE). Do the same for Denmark (DK).
+
+5(b) Write both estimated regression equations.
+
+5(c) How does a one percentage point increase in unemployment
+relate to the growth rate of wages in each country?
+
+5(d) Provide a 95% confidence interval for the coefficient multi-
+plying unemployment for each country.
+
+5(e) Predict the growth rate in wages for each country in a year
+that has 3% unemployment.
+
+5(f) Provide a 90% prediction interval for your prediction from
+part 5(e).

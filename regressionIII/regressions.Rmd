@@ -1,0 +1,114 @@
+#Problem 1
+
+###1a) Model
+```{r}
+movies = read.csv('bigmovies.csv')
+moviereg = lm(TotalDomesticGross~Bestactors+Topdollaractors+Summerrelease+Holidayrelease
+              +Christmasrelease+OpeningScreens, data=movies)
+summary(moviereg)
+```
+
+###1b) Heteroscedasticity Check
+```{r}
+library(lmtest)
+bptest(moviereg)
+```
+P-value =  0.03497, meaning we can reject the null of homoscedasticity. 
+Therefore, we accept that there is heteroscedasticity in the model.
+
+###1c) Semi-Log Model
+```{r}
+moviereg.log = lm(log(TotalDomesticGross)~Bestactors+Topdollaractors+Summerrelease+Holidayrelease
+                  +Christmasrelease+OpeningScreens, data=movies) 
+```
+
+###1d) Heteroscedasticity Check
+```{r}
+bptest(moviereg.log)
+```
+P-value = 0.5924, meaning we cannot reject the null of homoscedasticity.
+Evidence against homoscedasticity is not strong at 5% significance level.
+We accept the null of homoscedasticity.
+
+
+###1e) Prediction with Semi-log model
+Chose Semi-Log Model, since evidence in favor of heteroscedasticity was stronger in the case of the
+linear model. In addition, R-squared for linear model is lower, indicating that semi-log model is a better fit.
+```{r}
+newdata=data.frame(OpeningScreens=2600, Bestactors=0, Topdollaractors=0, Summerrelease=1, Holidayrelease=0,
+                   Christmasrelease=0)
+predict(moviereg.log, newdata=newdata, se.fit=TRUE)
+```
+Predicted Total domestic gross is 3.738528.
+```{r}
+se = sqrt(0.1407382^2+0.6940367^2)
+interval1 = 3.738528  + qt(0.05, 130) * se
+interval2 = 3.738528  - qt(0.05, 130) * se
+print(interval1)
+print(interval2)
+```
+Confidence interval at 90% significance level for this predicted value is [2.565344, 4.911712].
+
+#Problem 2
+
+###2a
+If movies of low quality are more likely to be released in autumn, while movies of high quality are saved to open in summer when more people go to the movies, the quality of the film will correlate positively with the coefficient on the summer variable (if high quality, summer will be 1, and if low quality, summer will be 0). 'Quality' will be represented in the error term if the variable for quality remains omitted, and will cause the coefficient on the summer variable to inflated and inconsistent due to the positive correlation between the quality of the film and whether or not it is released in summer.
+
+###2b
+The number of top dollar actors in a movie could be correlated with an omitted variable. One omitted variable could be the production budget of the film. Top dollar actors seem more likely to sign for productions with higher budgets (because they would get paid more), so the bias here would have a positive effect on the estimated coefficient for top dollar actors. A second possible omitted variable could be a 'BestDirectors' variable (directors that won or were nominated for Academy Awards in the 1990s). Top dollar actors would likely tend to want to work with famous and successful directors. The bias in this second scenario would also have a positive effect on the estimated coefficient for top dollar actors.
+
+#Problem 3
+
+###3a
+```{r}
+college=read.table("proximity/nls.dat", na.strings=c(".", "NA"))
+colnames(college) = c("id" ,"nearc2", "nearc4"  , "nearc4a" , "nearc4b" , "ed76"  ,"ed66"  , "age76"  , "daded" , "nodaded" , "momed" , "nomomed" , "weight"  , "momdad14" , "sinmom14" , "step14", "reg661" , "reg662"  , "reg663"  , "reg664" , "reg665" , "reg666" , "reg667" , "reg668" , "reg669"  , "south66" , "work76" , "work78" , "lwage76" , "lwage78"  , "famed" , "black" , "smsa76r" , "smsa78r" , "reg76r" , "reg78r" , "reg80r" , "smsa66r" , "wage76" , "wage78" , "wage80" , "noint78" , "noint80" , "enroll76" , "enroll78" , "enroll80" , "kww" , "iq" , "marsta76"  , "marsta78" , "marsta80" , "libcrd14")
+college$experience = college$age76 - college$ed76 - 6
+
+simpleOLS = lm(lwage76 ~ ed76 + experience + experience^2 + black + reg76r + smsa66r + reg661 + reg662 + reg663 + reg664 + reg665 + reg666 + reg667 + reg668, data = college)
+summary(simpleOLS)
+```
+There is a 0.0767 (7.67%) gain in wage for every year of education. This is not necessarily a causal relationship; all we can say at this point is that there is a positive correlation. We cannot make a claim for a causal relationship if the education variable is endogenous and proxying for an omitted variable.
+
+###3b
+For 'nearc4' to be a valid instrument: <br/> 
+&emsp; 1) 'near4c' must be correlated with 'ed76'. <br/> 
+&emsp; 2) 'near4c' must not be correlated with epsilon or with the LHS variable. <br/> 
+
+We can go further and lay out two specific assumptions: <br/> 
+&emsp; 1) People who live close to a college are more likely to go to college. <br/> 
+&emsp; 2) Distance from college has no other effect on the likelihood of higher income other than through this channel. <br/> 
+We can test the first assumption.
+
+###3c
+One mechanism for making 'nearc4' correlated with the error term would be that there is still an omitted variable, and the variable 'nearc4' is correlated with this variable. For example, people living in a college town may be more likely to have parents who are employed at the college, making it more likely for the children to attend that university due to tuition benefits for the children of the professors. Another example scenario of the omitted variable mechanism is that living near a four-year college may be a proxy for social and economic privilege.<br/><br/>Another mechanism would be simultaneity. Nearness to college/'nearc4' could simultaneously relate to the dependent variable in two different ways (as in the example of quantity and price of tomatoes), resulting in a correlation between 'near4c' and the error term.
+
+###3d
+```{r}
+firststage = lm(ed76 ~ nearc4 + experience + experience^2 + black + reg76r + smsa66r + reg661 + reg662 + reg663 + reg664 + reg665 + reg666 + reg667 + reg668, data = college)
+summary(firststage)
+```
+
+T-stat of 3.865 for distance variable 'nearc4' is significant; therefore distance variable satisfies the first requirement of the 2SLS test of being correlated with the education variable.
+
+###3e
+```{r}
+college$educpred = predict(firststage)
+secondstage = lm(lwage76 ~ experience + experience^2 + black + reg76r + smsa66r + reg661 + reg662 + reg663 + reg664 + reg665 + reg666 + reg667 + reg668 + educpred, data = college)
+summary(secondstage)
+```
+
+###3f
+```{r}
+library(AER)
+iv = ivreg(formula = lwage76 ~ ed76 + experience + experience^2 + black + reg76r + smsa66r + reg661 + reg662 + reg663 + reg664 + reg665 + reg666 + reg667 + reg668 | nearc4 + experience + experience^2 + black + reg76r + smsa66r + reg661 + reg662 + reg663 + reg664 + reg665 + reg666 + reg667 + reg668, data = college)
+summary(iv)
+```
+
+###3g
+```{r}
+iq.lm = lm(nearc4 ~ iq, data = college)
+summary(iq.lm)
+```
+This logistic regression shows that there is a slight positive correlation between higher ability/higher IQ and living near a four-year college. This result is important for evaluating the validity of 'nearc4' as an instrument, because it suggests that we should include IQ in the longer regression so that 'nearc4' won't be proxying for IQ's effect coming from within the error term. Moreover, IQ is also probably correlated with the likelihood of someone going to and finishing college, so showing that living near a college is correlated with IQ strengthens the argument for living near college being correlated with going to and finishing college.
+

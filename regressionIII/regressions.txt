@@ -1,0 +1,46 @@
+Problem 1. Movie studios spend a great deal of energy determining which films will be successful. A major hit or flop can have a measurable effect the bottom line of companies as big and diverse as Disney and Time Warner. The bigmovies5 file contains information on the major films of 1998. Use this information to develop a model that predicts total domestic gross for a film based on the following independent variables: Best Actor The number of actors or actresses in the movie who were listed in Entertainment Weeklys list of the 25 Best Actors and the 25 Best Actresses of the 1990s
+Top Dollar Actors The number of actors or actresses appearing in the movie who were among the top 20 actors and top 20 actresses in average box office gross per movie in their careers at the beginning of 1998 and had appeared in at least 10 movies at that time
+Summer A dummy variable indicating if the movie was released during the summer
+season (May 31 to Sept 5 inclusive) ( = 1 if released during summer, = 0
+otherwise)
+Holiday A dummy variable indicating if the movie was released on a holiday weekend (Presidents Day, Memorial Day, Independence Day, Labor Day, Thanksgiving, Christmas Day, New Years Day) ( = 1 if released on a holiday weekend, = 0 otherwise)
+Christmas A dummy variable indicating if the movie was released during the Christmas season (December 18th 31st) ( = 1 if released during the Christmas season, = 0 otherwise)
+Opening Screens The number of movie screens the film was shown on during the films first
+weekend of general release
+
+1(a) Construct a linear model using total domestic gross as the dependent variable.
+
+1(b) Check for heteroscedasticity.
+
+1(c) Now estimate a model a semi-log model where the LHS variable is log of totalgross.
+
+1(d) Check for heteroscedasticity.
+
+1(e) Pick a model (justify your answer) and predict predict the total gross of a movie opening on 2,600 screens with no big or top-dollar actors on a non-holiday weekend during the summer. Provide a 90% prediction interval
+for your estimate.
+
+Problem 2. Recall the discussion on endogeneity from class.
+
+2(a) Autumn is often considered a dumping ground for movies while summer is the busiest movie season where screens are in high demand. Assume a movie studio has some information about the quality of a movie and has discretion on whether to release the movie in the summer or in the autumn.
+How will this affect your estimate on the variable “Summer”?
+
+2(b) Provide at least two distinct stories of why the coefficient on “Top Dollar Actors” might be endogenous. What type of biases would you expect?
+
+Problem 3. Go to David Card’s website at http://davidcard.berkeley.edu/data_sets.html and download the data for his paper Using Geographic Variation in College Proximity to Estimate the Return to Schooling which is available here. Import the data into R.
+
+3(a) Estimate a log(wage) equation with the following explanatory variables: education in 1976, experience (defined as age in 1976 minus education minus 6), squared experience, black, south, smsa66 (person lives in major
+metropolitan area), region dummies reg661 through 668. What are the returns
+to one year of education? Is this a causal relationship?
+
+3(b) Card proposed to use distance to a 4-year college (nearc4) as an instrument for years of education. Which two assumptions have to be fulfilled for this to be a valid instrument? Which of these two assumptions can
+be tested?
+
+3(c) Propose two mechanisms which would make nearc4 an invalid instrument that is correlated with the error term of the regression.
+
+3(d) Estimate the first stage. Do you have a weak instrument problem?
+
+3(e) Estimate the returns to education using the two-stage OLS procedure (2SLS) that we discussed in class.
+
+3(f) Use ivreg from the AER library to estimate the IV regression with correct standard errors.
+
+3(g) For a subset of men in the sample, IQ scores are available. Regress iq on nearc4. Is the IQ score uncorrelated with nearc4? Why is your result important for evaluating the validity of your instrument?
